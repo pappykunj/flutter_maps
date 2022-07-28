@@ -25,7 +25,7 @@ const port = process.env.PORT ||5001;
 
 mongoose.Promise = global.Promise;
 //live
-mongoose.connect('mongodb+srv://pappykunj:Angela123@cluster0.avfy4.mongodb.net/SpeedLimiter?retryWrites=true&w=majority',
+mongoose.connect('',
 
     { useNewUrlParser: true, useUnifiedTopology: true }).then(() => {
         console.log("DataBase connected.");
